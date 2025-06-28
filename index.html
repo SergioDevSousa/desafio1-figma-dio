@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/index.css">
     <title>Desafio</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container-menu">
@@ -43,17 +45,46 @@
                     <p>Vamos descansar?</p>
                     <img src="./src/images/img_principal.png" alt="agenda" class="img-agenda">
                 </div>
-                <div class="agenda">
-                    <h3>Texto da agenda</h3>
-                </div>
             </div>
         </section>
         <section class="atividades">
+            <div class="container-atividades">
+                <h3>Descrição das atividades (22/04/2023)</h3>
+                <table class="tabela-atividades">
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Antes da reunião</td>
+                            <td>10:30h</td>
+                            <td><button class="acao"><img src="./src/images/add.png"></button></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Após almoço</td>
+                            <td>12:30h</td>
+                            <td><button class="acao"><img src="./src/images/add.png"></button></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Após o café da tarde</td>
+                            <td>16:00h</td>
+                            <td><button class="acao"><img src="./src/images/add.png"></button></td>
+                        </tr>
+                    </tbody>
+                </table><hr>
+
+                <div class="paginacao">
+                    <button class="pagina ativa">1</button>
+                    <button class="pagina"><img src="./src/images/arrow.png"></button>
+                </div>
+            </div>
 
         </section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>

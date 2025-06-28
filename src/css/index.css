@@ -111,3 +111,66 @@ main {
     width: 100%;
     height: auto;
 }
+/* seção atividades */
+.container-atividades{
+    width: 100%;
+    height: auto;
+    background-color: #e1e1e1;
+}
+.tabela-atividades {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: sans-serif;
+    background-color: #e1e1e1;
+    color: #111;
+}
+
+.tabela-atividades th,
+.tabela-atividades td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+.tabela-atividades th {
+    background-color: transparent; /* ou #f0f0f0 se quiser destacar */
+    font-weight: 600;
+}
+
+.tabela-atividades td:last-child,
+.tabela-atividades th:last-child {
+    text-align: right;
+    margin-right: 20px;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.paginacao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;;
+    gap: 12px;
+}
+
+.pagina {
+    padding: 6px 12px;
+    background-color: #e1e1e1;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #e1e1e1;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.pagina:hover {
+    background-color: #bbb;
+}
+
+.pagina.ativa {
+    background-color: #999;
+    font-weight: bold;
+}
