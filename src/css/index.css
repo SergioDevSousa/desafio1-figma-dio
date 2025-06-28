@@ -112,9 +112,16 @@ main {
     height: auto;
 }
 /* seção atividades */
-.container-atividades{
+.atividades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1e1e1;
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+.container-atividades{
+    width: 80%;
     background-color: #e1e1e1;
     padding: 50px;
 }
